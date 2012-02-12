@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <overlay id="sample"
 	 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="js/common.js"/>
   <script type="text/javascript" src="js/look-up.js"/>
   <script type="text/javascript" src="js/put-down.js"/>
   <popup id="contentAreaContextMenu">
