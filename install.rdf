@@ -5,7 +5,7 @@
   
   <Description about="urn:mozilla:install-manifest">  
     <em:id>firedict@mac-p.pl</em:id>  
-    <em:version>1.0</em:version>  
+    <em:version>0.0.1</em:version>  
     <em:type>2</em:type>  
     
     <!-- Target Application this extension can install into,   
@@ -19,9 +19,11 @@
     </em:targetApplication>  
     
     <!-- Front End MetaData -->  
-    <em:name>sample</em:name>  
-    <em:description>A test extension</em:description>  
-    <em:creator>Your Name Here</em:creator>  
-    <em:homepageURL>http://www.example.com/</em:homepageURL>  
+    <em:name>firedict</em:name>  
+    <em:description>
+      Little help by learning foreign languages
+    </em:description>  
+    <em:creator>Maciek Pazurkiewicz</em:creator>  
+    <em:homepageURL>http://students.mimuw.edu.pl/~mp248267</em:homepageURL>  
   </Description>        
 </RDF>  
