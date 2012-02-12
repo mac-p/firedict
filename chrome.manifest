@@ -1,2 +1,3 @@
-content     sample    chrome/content/
-overlay chrome://browser/content/browser.xul chrome://sample/content/sample.xul
+content	    firedict	chrome/content/
+overlay chrome://browser/content/browser.xul chrome://firedict/content/sample.xul	
+overlay chrome://browser/content/browser.xul chrome://firedict/content/context_menu.xul
