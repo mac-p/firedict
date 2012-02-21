@@ -6,11 +6,25 @@
   <script type="text/javascript" src="js/put-down.js"/>
   <popup id="contentAreaContextMenu">
     <menuseparator />
-    <menuitem id="firedict-lookup-oxford"
-	      label="Look it up in OALD"
-	      oncommand="showOALD();"/>
-    <menuitem id="firedict-putdown-english"
-	      label="Put down (English)"
-	      oncommand="putDown('english');"/>
+    <menu id="firedict-lookup" label="Look it up...">
+      <menupopup>
+	<menuitem id="firedict-lookup-oald"
+		  label="in OALD"
+		  oncommand="lookUp('oald');"/>
+	<menuitem id="firedict-lookup-pons"
+		  label="in PONS (DE-ENG)"
+		  oncommand="lookUp('pons');"/>
+      </menupopup>
+    </menu>
+    <menu id="firedict-putdown" label="Put down">
+      <menupopup>
+	<menuitem id="firedict-putdown-english"
+		  label="English"
+		  oncommand="putDown('english');"/>
+	<menuitem id="firedict-putdown-german"
+		  label="German"
+		  oncommand="putDown('german');"/>
+      </menupopup>
+    </menu>
   </popup>
 </overlay>

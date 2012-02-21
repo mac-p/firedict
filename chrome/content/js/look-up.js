@@ -1,8 +1,12 @@
 const OXFORD_DICT_URL = 'http://oald8.oxfordlearnersdictionaries.com/dictionary/'
 
-function showOALD() {
-    url = OXFORD_DICT_URL + content.getSelection();
-    findOrCreateTab('oald', url)
+const DICTS = {
+    oald: function(word) { return OXFORD_DICT_URL + word; }
+}
+
+function lookUp(dictionary) {
+    url = DICTS[dictionary](content.getSelection());
+    findOrCreateTab(dictionary, url)
 }
 
 function findTab(marker) {

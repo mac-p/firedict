@@ -1,5 +1,6 @@
 const FILES = {
-    english: 'firedict-english.txt'
+    english: 'firedict-english.txt',
+    german: 'firedict-german.txt'
 }
 
 //Appends string to file (on user's Desktop)
