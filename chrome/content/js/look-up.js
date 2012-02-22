@@ -1,7 +1,9 @@
-const OXFORD_DICT_URL = 'http://oald8.oxfordlearnersdictionaries.com/dictionary/'
+const OXFORD_DICT_URL = 'http://oald8.oxfordlearnersdictionaries.com/dictionary/';
+const PONS_DICT_URL = 'http://de.pons.eu/englisch-deutsch/';
 
 const DICTS = {
-    oald: function(word) { return OXFORD_DICT_URL + word; }
+    oald: function(word) { return OXFORD_DICT_URL + word; },
+    pons: function(word) { return PONS_DICT_URL + word; }
 }
 
 function lookUp(dictionary) {
