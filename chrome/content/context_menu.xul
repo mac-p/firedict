@@ -5,7 +5,7 @@
   <script type="text/javascript" src="js/look-up.js"/>
   <script type="text/javascript" src="js/put-down.js"/>
   <popup id="contentAreaContextMenu">
-    <menuseparator />
+    <menuseparator id="firedict-menuseparator"/>
     <menu id="firedict-lookup" label="Look it up...">
       <menupopup>
 	<menuitem id="firedict-lookup-oald"

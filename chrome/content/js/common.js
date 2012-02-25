@@ -12,10 +12,13 @@ pl.firedict.common = function() {
     };
 
     priv.showHideMenu = function() {
-	var lookup_menu = document.getElementById("firedict-lookup");
-	var putdown_menu = document.getElementById("firedict-putdown");
-	lookup_menu.hidden = !gContextMenu.isTextSelected;
-	putdown_menu.hidden= !gContextMenu.isTextSelected;
+	var menuItems = [];
+	menuItems.push(document.getElementById("firedict-lookup"));
+	menuItems.push(document.getElementById("firedict-putdown"));
+	menuItems.push(document.getElementById("firedict-menuseparator"));
+	for (var i = 0, item; item = menuItems[i++];) {
+	    item.hidden = !gContextMenu.isTextSelected;
+	}
     }
     return pub;
 }();
