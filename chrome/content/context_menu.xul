@@ -10,20 +10,20 @@
       <menupopup>
 	<menuitem id="firedict-lookup-oald"
 		  label="in OALD"
-		  oncommand="lookUp('oald');"/>
+		  oncommand="pl.firedict.lookup.lookUp('oald');"/>
 	<menuitem id="firedict-lookup-pons"
 		  label="in PONS (DE-ENG)"
-		  oncommand="lookUp('pons');"/>
+		  oncommand="pl.firedict.lookup.lookUp('pons');"/>
       </menupopup>
     </menu>
     <menu id="firedict-putdown" label="Put down">
       <menupopup>
 	<menuitem id="firedict-putdown-english"
 		  label="English"
-		  oncommand="putDown('english');"/>
+		  oncommand="pl.firedict.putdown.putDown('english');"/>
 	<menuitem id="firedict-putdown-german"
 		  label="German"
-		  oncommand="putDown('german');"/>
+		  oncommand="pl.firedict.putdown.putDown('german');"/>
       </menupopup>
     </menu>
   </popup>
